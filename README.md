@@ -21,11 +21,11 @@ To write a program to predict the marks scored by a student using the simple lin
 6. Compare the graphs and hence we obtained the linear regression for the given datas.
 
 ## Program:
-```
+...
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Ragul E
-RegisterNumber:  212221043005
+Developed by: Rahul K
+RegisterNumber:  212221043006
 */
 import pandas as pd
 import numpy as np
@@ -64,7 +64,7 @@ mae=mean_absolute_error(Y_test,Y_pred)
 print("MAE= ",mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
-```
+...
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
 # df.head()
